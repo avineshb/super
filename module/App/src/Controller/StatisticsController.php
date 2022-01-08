@@ -19,8 +19,8 @@ class StatisticsController extends Controller
 
     private const STAT_LABELS = [
         StatsEnum::TOTAL_POSTS_PER_WEEK         => 'Total posts split by week',
-        StatsEnum::AVERAGE_POST_NUMBER_PER_USER => 'Average number of posts per user in a given month',
         StatsEnum::AVERAGE_POST_LENGTH          => 'Average character length/post in a given month',
+        StatsEnum::AVERAGE_POST_NUMBER_PER_USER => 'Average number of posts per user in a given month',
         StatsEnum::MAX_POST_LENGTH              => 'Longest post by character length in a given month',
     ];
 
