@@ -18,9 +18,9 @@ use Statistics\Calculator\AveragePostNumberPerUser;
 class AveragePostNumberPerUserTest extends TestCase
 {
     /**
-     * Test Statistics\Calculator\AveragePostNumberPerUser::doCalculate()
+     * Test to ensure `Statistics\Calculator\AveragePostNumberPerUser::doCalculate()` works as intended.
      */
-    public function testDoCalculate()
+    public function testDoCalculate(): void
     {
         // Set report date.
         $parameters = ParamsBuilder::reportStatsParams(new DateTime('2018-08-01'));
